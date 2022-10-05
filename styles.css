@@ -3,12 +3,12 @@ body {
     margin: 0;
 }
 
-.header, .container-hero {
+.header, .container-1, .container-2, .container-3, .container-4 {
     max-width: 80%;
     margin: 0 10%;
 }
 
-header, .section-1 {
+header, .section-1, footer {
     background-color: #1f2937;
 }
 
@@ -50,7 +50,7 @@ h1 {
     align-items: center;
 }
 
-.container-hero {
+.container-1 {
     display: flex;
     padding: 100px 0;
     gap: 50px;
@@ -60,4 +60,15 @@ button {
     background-color: #3882F6;
     border-radius: 10%;
     color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+p.footer {
+    color: #E5E7EB;
 }
