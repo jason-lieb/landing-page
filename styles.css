@@ -1,18 +1,18 @@
 body {
-    font: 'Roboto';
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-header, div.top {
+.header, .container-hero {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+header, .section-1 {
     background-color: #1f2937;
 }
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-div.header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,39 @@ ul {
     gap: 10px;
 }
 
-li, p.hero {
+li, p.hero, .img {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.img {
+    min-width: 40%;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hero {
+    display: flex;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
 }
