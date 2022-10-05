@@ -1,0 +1,31 @@
+body {
+    font: 'Roboto';
+    padding: 0;
+}
+
+header, div.top {
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+div.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+li, p.hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
