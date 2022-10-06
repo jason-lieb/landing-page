@@ -30,6 +30,10 @@ li, p.hero, .img {
     color: #E5E7EB;
 }
 
+p.hero {
+    margin: 0;
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -37,7 +41,7 @@ li, p.hero, .img {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
     padding: 0;
@@ -62,6 +66,8 @@ button {
     background-color: #3882F6;
     border-radius: 10%;
     color: white;
+    width: 80px;
+    height: 20px;
 }
 .section-2{
     text-align: center;
@@ -72,14 +78,16 @@ button {
 h2.info {
     font-size: 36px;
     color: #1F2937;
-    font-weight: extra-bold;
+    font-weight: bolder;
+    margin: 20px auto 40px auto;
 }
 
 .container-2 {
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 40px;
+    margin: 0 auto;
+
 }
 
 div.info {
@@ -107,9 +115,42 @@ p.info {
     height: 300px;
 }
 
+.container-3 {
+    padding: 40px 100px;
+}
+
+.section-4 {
+    padding: 80px;
+}
+
+blockquote {
+    font-size: 32px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+}
+
+figcaption {
+    float: right;
+    margin-right: 5rem;
+    font-weight: bold;
+}
+
 .container-4 {
     background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
 }
+
+h3, p.cta {
+    margin: 0;
+    color: white;
+}
+
+
 
 footer {
     display: flex;
