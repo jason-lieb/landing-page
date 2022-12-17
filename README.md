@@ -4,4 +4,4 @@
 HTML and CSS Landing Page Project
 
 ## Link
-https://jason-lieb.github.io/odin-landing-page-project/
+https://jason-lieb.github.io/landing-page/
