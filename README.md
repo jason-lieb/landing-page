@@ -1,2 +1,7 @@
-# odin-landing-page-project
+# Landing Page
+
+## Description
 HTML and CSS Landing Page Project
+
+## Link
+https://jason-lieb.github.io/odin-landing-page-project/
