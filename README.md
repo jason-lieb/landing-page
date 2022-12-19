@@ -1,6 +1,4 @@
 # Landing Page
-
-## Description
 HTML and CSS Landing Page Project
 
 ## Link
